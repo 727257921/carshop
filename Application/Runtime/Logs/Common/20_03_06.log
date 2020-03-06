@@ -1,0 +1,180 @@
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /index.php/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+ERR: 无法加载模块:Js
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /index.php/Public/Uploads/2016-04-27/5720442390d32.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /index.php/Public/Uploads/2016-04-27/5720440116c2c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /index.php/Public/Uploads/2016-04-27/572043b5b427e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002069s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:11:30+08:00 ] 127.0.0.1 /index.php/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Js
+
+[ 2020-03-06T15:12:58+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:12:58+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:12:58+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:12:58+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:07+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:07+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:07+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:19+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:19+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:13:19+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:47+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:47+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:47+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:50+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:50+08:00 ] 127.0.0.1 /Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:50+08:00 ] 127.0.0.1 /js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Js
+
+[ 2020-03-06T15:14:50+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:14:50+08:00 ] 127.0.0.1 /js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Js
+
+[ 2020-03-06T15:16:19+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:19:34+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Public
+
+[ 2020-03-06T15:19:46+08:00 ] 127.0.0.1 /Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Public
+

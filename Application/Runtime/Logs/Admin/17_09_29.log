@@ -1,0 +1,1275 @@
+[ 2017-09-29T20:47:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040002s ]
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.1070s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_admin` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT a.id,a.username,b.rolename FROM cs_admin a LEFT JOIN cs_role b ON a.roleid=b.id  LIMIT 0,2   [ RunTime:0.0560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: kw D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\30f77fd636a9985fde2d229861a910bc.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044002s ]
+
+[ 2017-09-29T20:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.1020s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id LIMIT 1   [ RunTime:0.0110s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT article.id AS id,article.title AS title,article.rem AS rem,article.pic AS pic,cate.name AS name FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id ORDER BY article.id desc LIMIT 0,3   [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T20:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c265c62ab5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c2644de5d6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:47:37+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c260d27369.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:47:38+08:00 ] 127.0.0.1 /index.php/Admin/Cate/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-09-29T20:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Cate/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:design
+
+[ 2017-09-29T20:47:41+08:00 ] 127.0.0.1 /index.php/Admin/Cate/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:design
+
+[ 2017-09-29T20:48:05+08:00 ] 127.0.0.1 /index.php/Admin/Cate/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-29T20:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Cate/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:48:08+08:00 ] 127.0.0.1 /index.php/Admin/Cate/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:48:09+08:00 ] 127.0.0.1 /index.php/Admin/Article/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0260s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT article.id AS id,article.title AS title,article.rem AS rem,article.pic AS pic,cate.name AS name FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id ORDER BY article.id desc LIMIT 0,3   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-29T20:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c265c62ab5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c2644de5d6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053003s ]
+
+[ 2017-09-29T20:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/Public/Uploads/2016-05-06/572c260d27369.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-29T20:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Article/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:design
+
+[ 2017-09-29T20:48:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.0170s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_admin` LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT a.id,a.username,b.rolename FROM cs_admin a LEFT JOIN cs_role b ON a.roleid=b.id  LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: kw D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\30f77fd636a9985fde2d229861a910bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.0170s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_admin` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT a.id,a.username,b.rolename FROM cs_admin a LEFT JOIN cs_role b ON a.roleid=b.id  LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: kw D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\30f77fd636a9985fde2d229861a910bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T20:48:36+08:00 ] 127.0.0.1 /index.php/Admin/System/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-09-29T20:48:40+08:00 ] 127.0.0.1 /index.php/Admin/System/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:48:40+08:00 ] 127.0.0.1 /index.php/Admin/System/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:48:40+08:00 ] 127.0.0.1 /index.php/Admin/System/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T20:54:48+08:00 ] 127.0.0.1 /index.php/Admin/System/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-09-29T20:54:51+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cs_privilege` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-09-29T20:56:01+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:56:11+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:56:12+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:56:29+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:lst
+
+[ 2017-09-29T20:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:lst
+
+[ 2017-09-29T20:56:41+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T20:56:42+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/edit/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cs_privilege` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T20:56:50+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/edit/id/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cs_privilege` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-09-29T20:57:10+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/edit/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cs_privilege` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:00:18+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/system.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:system
+
+[ 2017-09-29T21:05:19+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-09-29T21:05:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Role
+
+[ 2017-09-29T21:11:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:11:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T21:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T21:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:11:40+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T21:11:46+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T21:12:02+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0190s ]
+SQL: UPDATE `cs_role` SET `rolename`='栏目管理员',`pri_id_list`='17,18,19,20,21' WHERE `id` = 6 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-29T21:12:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:lst
+
+[ 2017-09-29T21:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Role/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:lst
+
+[ 2017-09-29T21:27:07+08:00 ] 127.0.0.1 /index.php/Admin/Role/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:27:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T21:28:06+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-29T21:28:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/list/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 3,3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:28:14+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:32:34+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-29T21:36:23+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-29T21:36:30+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cs_role` WHERE `rolename` = '文章管理员' AND `id` <> '7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `cs_role` SET `rolename`='文章管理员',`pri_id_list`='17,21,22,23,24' WHERE `id` = 7 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-09-29T21:36:31+08:00 ] 127.0.0.1 /index.php/Admin/Role/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-09-29T21:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Role/edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `cs_role` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cs_privilege`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+NOTIC: [8] Undefined variable: vo D:\phpStudy\WWW\carshop\Application\Runtime\Cache\Admin\cf36cfc2ebe1578307fb0cc4d3ea2ac3.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-29T22:11:35+08:00 ] 127.0.0.1 /index.php/Admin/Role/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpStudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM cs_role a LEFT JOIN cs_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,3   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

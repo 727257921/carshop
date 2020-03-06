@@ -1,0 +1,48 @@
+[ 2017-10-11T09:00:44+08:00 ] ::1 /carshop/index.php/Admin/Admin/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpstudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' D:\phpstudy\WWW\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.0300s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_admin` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy\WWW\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT a.id,a.username,b.rolename FROM cs_admin a LEFT JOIN cs_role b ON a.roleid=b.id  LIMIT 0,2   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: kw D:\phpstudy\WWW\carshop\Application\Runtime\Cache\Admin\30f77fd636a9985fde2d229861a910bc.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T09:00:45+08:00 ] ::1 /carshop/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
